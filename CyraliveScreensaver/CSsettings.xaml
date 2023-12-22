@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CyraliveScreensaver"
         mc:Ignorable="d"
-        Title="设置" Height="210" Width="230" ResizeMode="NoResize" Closing="Window_Closing">
+        Title="设置" Height="310" Width="230" ResizeMode="NoResize" Closing="Window_Closing">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -22,7 +22,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBlock Text="屏保样式: " Margin="5,0,0,0"/>
-        <ComboBox x:Name="CStheme"  Grid.Column="1" Margin="0,0,5,2" SelectedIndex="0">
+        <ComboBox x:Name="CStheme"  Grid.Column="1" Margin="0,0,5,20" SelectedIndex="0">
             <ComboBoxItem Content="谢拉"/>
             <ComboBoxItem Content="魔法阵营"/>
             <ComboBoxItem Content="科技阵营"/>
