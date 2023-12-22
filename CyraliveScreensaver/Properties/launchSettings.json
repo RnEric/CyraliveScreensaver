@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CyraliveScreensaver": {
+      "commandName": "Project",
+      "commandLineArgs": "/c"
+    }
+  }
+}

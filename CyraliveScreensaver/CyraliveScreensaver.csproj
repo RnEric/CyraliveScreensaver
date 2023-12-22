@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+    <Authors>Eric Ren</Authors>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CR_farewell.jpg" />
+    <None Remove="Digital7.ttf" />
+    <None Remove="OR_blue.jpg" />
+    <None Remove="OR_golden2.jpg" />
+    <None Remove="snow\snow1.png" />
+    <None Remove="snow\snow2.png" />
+    <None Remove="snow\snow3.png" />
+    <None Remove="snow\snow4.png" />
+    <None Remove="snow\snow5.png" />
+    <None Remove="snow\snow6.png" />
+    <None Remove="snow\snow7.png" />
+    <None Remove="snow\snow8.png" />
+    <None Remove="snow\snow9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="CR_farewell.jpg" />
+    <Resource Include="Digital7.ttf" />
+    <Resource Include="OR_blue.jpg" />
+    <Resource Include="OR_golden2.jpg" />
+    <Resource Include="snow\snow1.png" />
+    <Resource Include="snow\snow2.png" />
+    <Resource Include="snow\snow3.png" />
+    <Resource Include="snow\snow4.png" />
+    <Resource Include="snow\snow5.png" />
+    <Resource Include="snow\snow6.png" />
+    <Resource Include="snow\snow7.png" />
+    <Resource Include="snow\snow8.png" />
+    <Resource Include="snow\snow9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="首次使用.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="开始.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="设置.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="预览.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
